@@ -1,4 +1,4 @@
-package com.saerom.srj.setting;
+package com.saerom.srj.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

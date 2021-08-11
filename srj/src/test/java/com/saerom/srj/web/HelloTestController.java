@@ -15,7 +15,6 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import com.saerom.srj.web.HelloController;
 
-@SpringBootTest
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = HelloController.class)
 public class HelloTestController {
