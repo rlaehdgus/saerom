@@ -4,15 +4,15 @@
         "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 <tiles-definitions>
 
-	<!-- Main 페이지 -->
-	<definition name="main" extends="default">
-        <put-attribute name="body" value="/WEB-INF/views/main/main.jsp" />
-    </definition>
-
     <!-- Header / Footer가 들어간 기본 화면 -->
-    <definition name="main" template="/WEB-INF/views/layout/mainLayout.jsp">
+    <definition name="mainLayout" template="/WEB-INF/views/layout/mainLayout.jsp">
         <put-attribute name="header" value="/WEB-INF/views/layout/mainHeader.jsp" />
         <put-attribute name="body" value="" />
         <put-attribute name="footer" value="/WEB-INF/views/layout/mainFooter.jsp" />
+    </definition>
+    
+	<!-- Main 페이지 -->
+	<definition name="main/main" extends="mainLayout">
+        <put-attribute name="body" value="/WEB-INF/views/main/main.jsp" />
     </definition>
 </tiles-definitions>
