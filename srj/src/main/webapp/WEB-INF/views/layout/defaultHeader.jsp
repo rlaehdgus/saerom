@@ -26,16 +26,26 @@
 					<div class="main-menu f-right d-none d-lg-block">
 						<nav>
 							<ul id="navigation">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="blog.html">Blog</a>
+								<li><a href="/main">홈</a></li>
+								<li><a href="/about/about">교회소개</a>
 									<ul class="submenu">
-										<li><a href="blog.html">Blog</a></li>
-										<li><a href="blog_details.html">Blog Details</a></li>
-										<li><a href="elements.html">Elements</a></li>
-									</ul></li>
-								<li><a href="contact.html">Contact</a></li>
+										<li><a href="#">담임목사 인사말</a></li>
+										<li><a href="#">비전&연혁</a></li>
+										<li><a href="#">섬기는 사람들</a></li>
+										<li><a href="#">예배시간 안내</a></li>
+										<li><a href="#">찾아오시는 길</a></li>
+									</ul>
+								</li>
+								<li><a href="#">새롬광장</a>
+									<ul class="submenu">
+										<li><a href="#">교회 소식/주보</a></li>
+										<li><a href="#">행사 앨범</a></li>
+										<li><a href="#">새롬 달력</a></li>
+										<li><a href="#">온라인 문의</a></li>
+									</ul>
+								</li>
+								<li><a href="#">생방송 예배</a></li>
+								<li><a href="#">온라인 헌금</a></li>
 							</ul>
 						</nav>
 					</div>
