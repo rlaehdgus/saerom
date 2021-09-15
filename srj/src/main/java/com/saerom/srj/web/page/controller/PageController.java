@@ -1,4 +1,4 @@
-package com.saerom.srj.web.controller;
+package com.saerom.srj.web.page.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,11 +8,11 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class PageController {
 	
-	@GetMapping("{url1}/{url2}")
-	public ModelAndView about(@PathVariable("url1") String url1, @PathVariable("url2") String url2) {
+	@GetMapping("{mainMenu}/{subMenu}")
+	public ModelAndView about(@PathVariable("mainMenu") String mainMenu, @PathVariable("subMenu") String subMenu) {
 		ModelAndView mav = new ModelAndView();
 		
-		mav.setViewName(url1+"/"+url2);
+		mav.setViewName(mainMenu+"/"+subMenu);
 		return mav;
 	}
 }

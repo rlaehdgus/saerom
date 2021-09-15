@@ -6,7 +6,7 @@
 		<div class="preloader-inner position-relative">
 			<div class="preloader-circle"></div>
 			<div class="preloader-img pere-text">
-				<img src="assets/img/logo/loder.png" alt="">
+				<img src="/assets/img/logo/loder.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -19,7 +19,7 @@
 			<div class="header-bottom header-sticky">
 				<!-- Logo -->
 				<div class="logo">
-					<a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+					<a href="/main"><img src="/assets/img/logo/logo.png" alt=""></a>
 				</div>
 				<div class="header-left  d-flex f-right align-items-center">
 					<!-- Main-menu -->
@@ -27,13 +27,13 @@
 						<nav>
 							<ul id="navigation">
 								<li><a href="/main">홈</a></li>
-								<li><a href="/about/about">교회소개</a>
+								<li><a href="/intro/greeting">교회소개</a>
 									<ul class="submenu">
-										<li><a href="#">담임목사 인사말</a></li>
-										<li><a href="#">비전&연혁</a></li>
-										<li><a href="#">섬기는 사람들</a></li>
-										<li><a href="#">예배시간 안내</a></li>
-										<li><a href="#">찾아오시는 길</a></li>
+										<li><a href="/intro/greeting">담임목사 인사말</a></li>
+										<li><a href="/intro/vision">비전&연혁</a></li>
+										<li><a href="/intro/serve">섬기는 사람들</a></li>
+										<li><a href="/intro/worshipInfo">예배시간 안내</a></li>
+										<li><a href="/intro/location">찾아오시는 길</a></li>
 									</ul>
 								</li>
 								<li><a href="#">새롬광장</a>

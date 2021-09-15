@@ -7,12 +7,12 @@
 			<!-- Single Slider -->
 			<div
 				class="single-slider position-relative hero-overly slider-height2  d-flex align-items-center"
-				data-background="assets/img/hero/h1_hero.png">
+				data-background="/assets/img/hero/h1_hero.png">
 				<div class="container">
 					<div class="row">
 						<div class="col-xl-6 col-lg-6">
 							<div class="hero-caption hero-caption2">
-								<img src="assets/img/hero/hero-icon.png" alt=""
+								<img src="/assets/img/hero/hero-icon.png" alt=""
 									data-animation="zoomIn" data-delay="1s">
 								<h2 data-animation="fadeInLeft" data-delay=".4s">About us</h2>
 							</div>
@@ -21,7 +21,7 @@
 				</div>
 				<!-- Left img -->
 				<div class="hero-img hero-img2">
-					<img src="assets/img/hero/h2_hero2.png" alt=""
+					<img src="/assets/img/hero/h2_hero2.png" alt=""
 						data-animation="fadeInRight" data-transition-duration="5s">
 				</div>
 			</div>
@@ -64,7 +64,7 @@
 					<div class="single-cat mb-50 wow fadeInUp" data-wow-duration="1s"
 						data-wow-delay=".2s">
 						<div class="cat-icon">
-							<img src="assets/img/icon/services1.svg" alt="">
+							<img src="/assets/img/icon/services1.svg" alt="">
 						</div>
 						<div class="cat-cap">
 							<h5>Tailor Sweing</h5>
@@ -77,7 +77,7 @@
 					<div class="single-cat mb-50 wow fadeInUp" data-wow-duration="1s"
 						data-wow-delay=".2s">
 						<div class="cat-icon">
-							<img src="assets/img/icon/services2.svg" alt="">
+							<img src="/assets/img/icon/services2.svg" alt="">
 						</div>
 						<div class="cat-cap">
 							<h5>Tailor Sweing</h5>
@@ -90,7 +90,7 @@
 					<div class="single-cat mb-50 wow fadeInUp" data-wow-duration="1s"
 						data-wow-delay=".4s">
 						<div class="cat-icon">
-							<img src="assets/img/icon/services3.svg" alt="">
+							<img src="/assets/img/icon/services3.svg" alt="">
 						</div>
 						<div class="cat-cap">
 							<h5>Tailor Sweing</h5>
@@ -103,7 +103,7 @@
 					<div class="single-cat mb-50 wow fadeInUp" data-wow-duration="1s"
 						data-wow-delay=".5s">
 						<div class="cat-icon">
-							<img src="assets/img/icon/services4.svg" alt="">
+							<img src="/assets/img/icon/services4.svg" alt="">
 						</div>
 						<div class="cat-cap">
 							<h5>Tailor Sweing</h5>
@@ -118,7 +118,7 @@
 	<!--? Services Area End -->
 	<!--? video_start -->
 	<div class="video-area section-bg2 d-flex align-items-center"
-		data-background="assets/img/gallery/video-bg.png">
+		data-background="/assets/img/gallery/video-bg.png">
 		<div class="container">
 			<div class="video-wrap position-relative">
 				<!-- Video icon -->
@@ -142,7 +142,7 @@
 							<!-- Single Testimonial -->
 							<div class="single-testimonial position-relative">
 								<div class="testimonial-caption">
-									<img src="assets/img/icon/quotes-sign.png" alt=""
+									<img src="/assets/img/icon/quotes-sign.png" alt=""
 										class="quotes-sign">
 									<p>Brook presents your services with flexible, convenient
 										and cdpose layouts. You can select your favorite layouts &
@@ -153,7 +153,7 @@
 								<!-- founder -->
 								<div class="testimonial-founder d-flex align-items-center">
 									<div class="founder-img">
-										<img src="assets/img/icon/testimonial.png" alt="">
+										<img src="/assets/img/icon/testimonial.png" alt="">
 									</div>
 									<div class="founder-text">
 										<span>Robart Brown</span>
@@ -164,7 +164,7 @@
 							<!-- Single Testimonial -->
 							<div class="single-testimonial position-relative">
 								<div class="testimonial-caption">
-									<img src="assets/img/icon/quotes-sign.png" alt=""
+									<img src="/assets/img/icon/quotes-sign.png" alt=""
 										class="quotes-sign">
 									<p>Brook presents your services with flexible, convenient
 										and cdpose layouts. You can select your favorite layouts &
@@ -175,7 +175,7 @@
 								<!-- founder -->
 								<div class="testimonial-founder d-flex align-items-center">
 									<div class="founder-img">
-										<img src="assets/img/icon/testimonial.png" alt="">
+										<img src="/assets/img/icon/testimonial.png" alt="">
 									</div>
 									<div class="founder-text">
 										<span>Robart Brown</span>
@@ -206,13 +206,13 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6">
 					<div class="single-instagram mb-30">
-						<img src="assets/img/gallery/instra1.png" alt=""> <a
+						<img src="/assets/img/gallery/instra1.png" alt=""> <a
 							href="#"><i class="ti-instagram"></i></a>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<div class="single-instagram">
-						<img src="assets/img/gallery/instra2.png" alt=""> <a
+						<img src="/assets/img/gallery/instra2.png" alt=""> <a
 							href="#"><i class="ti-instagram"></i></a>
 					</div>
 				</div>

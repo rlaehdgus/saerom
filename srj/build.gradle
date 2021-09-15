@@ -17,7 +17,10 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
 	implementation 'org.apache.tiles:tiles-jsp:3.0.7'
-	compile group: 'javax.servlet', name: 'jstl', version: '1.2'
+    implementation 'junit:junit:4.13.1'
+    compile group: 'javax.servlet', name: 'jstl', version: '1.2'
+	implementation 'org.springframework.boot:spring-boot-devtools'
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
 	
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
