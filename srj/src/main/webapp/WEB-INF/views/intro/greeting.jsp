@@ -9,20 +9,13 @@
 				class="single-slider position-relative hero-overly slider-height2  d-flex align-items-center"
 				data-background="/assets/img/hero/h1_hero.png">
 				<div class="container">
-					<div class="row">
+					<div class="row row-middle">
 						<div class="col-xl-6 col-lg-6">
 							<div class="hero-caption hero-caption2">
-								<img src="/assets/img/hero/hero-icon.png" alt=""
-									data-animation="zoomIn" data-delay="1s">
-								<h2 data-animation="fadeInLeft" data-delay=".4s">About us</h2>
+								<h2 data-animation="fadeInLeft" data-delay=".4s">담임목사 인사말</h2>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- Left img -->
-				<div class="hero-img hero-img2">
-					<img src="/assets/img/hero/h2_hero2.png" alt=""
-						data-animation="fadeInRight" data-transition-duration="5s">
 				</div>
 			</div>
 		</div>
